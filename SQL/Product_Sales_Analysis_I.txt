@@ -1,3 +1,4 @@
+SQL Schema
 Table: Sales
 
 +-------------+-------+
@@ -25,7 +26,6 @@ Table: Product
 +--------------+---------+
 product_id is the primary key of this table.
 Each row of this table indicates the product name of each product.
- 
 
 Write an SQL query that reports the product_name, year, and price for each sale_id in the Sales table.
 
