@@ -12,4 +12,4 @@ from Orders o left join Customers c
 using(customer_id)
     ) as a
 where rnk<=3
-order by customer_name asc,customer_id asc,order_date desc
+order by customer_name,customer_id,order_date desc
