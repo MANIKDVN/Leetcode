@@ -7,7 +7,10 @@ class Solution:
         :return: count of digits of n.
         '''
         # code here
-        return len(str(n))
+        if n<10:
+            return 1
+        else:
+            return 1+self.countDigits(n/10)
 
 #{ 
 #  Driver Code Starts
