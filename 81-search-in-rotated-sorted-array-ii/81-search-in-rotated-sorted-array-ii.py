@@ -10,8 +10,6 @@ class Solution:
             mid=(low+high)//2
             if nums[mid]==target:
                 return True
-                print(mid)
-                print(nums[mid])
             elif nums[mid]>=nums[low]:
                 if target>=nums[low] and target<nums[mid]:
                     high=mid-1
@@ -22,6 +20,4 @@ class Solution:
                     low=mid+1
                 else:
                     high=mid-1
-        print(mid)
-        print(nums[mid])
         return False
