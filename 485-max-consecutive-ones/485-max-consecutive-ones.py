@@ -8,4 +8,5 @@ class Solution:
                 result=max(count,result)
             else:
                 count=0
+                rsult=0
         return result
